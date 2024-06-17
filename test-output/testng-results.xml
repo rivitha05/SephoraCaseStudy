@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-17T12:17:10 GST" name="Suite" finished-at="2024-06-17T12:17:41 GST" duration-ms="31417">
+    <groups>
+    </groups>
+    <test started-at="2024-06-17T12:17:10 GST" name="Test" finished-at="2024-06-17T12:17:41 GST" duration-ms="31417">
+      <class name="SeleniumFramework.UserFlow">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFramework.UserFlow@19835e64]" started-at="2024-06-17T12:17:10 GST" name="launchApplication" finished-at="2024-06-17T12:17:15 GST" duration-ms="5312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="userFlow(java.util.HashMap)[pri:0, instance:SeleniumFramework.UserFlow@19835e64]" started-at="2024-06-17T12:17:15 GST" name="userFlow" data-provider="getData" finished-at="2024-06-17T12:17:27 GST" duration-ms="11364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{search=lipstick, product=Artist Color Pencil, email=rivithainfanta98@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumFramework.UserFlow@19835e64]" started-at="2024-06-17T12:17:27 GST" name="tearDown" finished-at="2024-06-17T12:17:27 GST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFramework.UserFlow@19835e64]" started-at="2024-06-17T12:17:27 GST" name="launchApplication" finished-at="2024-06-17T12:17:31 GST" duration-ms="4132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="userFlow(java.util.HashMap)[pri:0, instance:SeleniumFramework.UserFlow@19835e64]" started-at="2024-06-17T12:17:31 GST" name="userFlow" data-provider="getData" finished-at="2024-06-17T12:17:41 GST" duration-ms="10246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{search=concealers, product=ULTRA HD CONCEALER, email=rivithainfanta98@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumFramework.UserFlow@19835e64]" started-at="2024-06-17T12:17:41 GST" name="tearDown" finished-at="2024-06-17T12:17:41 GST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumFramework.UserFlow -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
